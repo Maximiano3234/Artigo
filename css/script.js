@@ -1,6 +1,6 @@
-// Layout will not be affected after remove below javascript code
+// A remoção do js não afeta a pagina
 
-// Handle Image Gallery
+// Galeria de Imagens
 const galleryMask = document.querySelector(".gallery-mask");
 const maskImage = document.querySelector(".mask-image");
 const galleryImgs = document.querySelectorAll(".image-item");
@@ -20,7 +20,7 @@ galleryImgs.forEach((item) => {
 	});
 });
 
-// Handle Publish Date
+// Data de publicação
 const dateData = document.getElementById("Data");
 const sinceData = document.getElementById("sinceData");
 let publishDate = "2023/03/21";
